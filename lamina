@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lâmina — editor de apresentações</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f5f5f5;
+        }
+        .toolbar {
+            margin-bottom: 20px;
+            padding: 10px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .toolbar button {
+            margin-right: 10px;
+            padding: 8px 12px;
+            cursor: pointer;
+        }
+        .color-palette {
+            border: 1px solid #ccc;
+            padding: 15px;
+            background: white;
+            margin-top: 20px;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Lâmina — editor de apresentações</h1>
+
+    <div class="toolbar">
+        <button>Lâmina</button>
+        <button>Texto</button>
+        <button>Retângulo</button>
+        <button>Círculo</button>
+        <button>Imagem</button>
+        <button>🎨 Ateliê de cor</button>
+        <button>Apresentar</button>
+    </div>
+
+    <div class="color-palette">
+        <h3>Ateliê de cor</h3>
+        <p>Escolha uma paleta e clique em “Adicionar ao slide”.</p>
+        <label>
+            <input type="checkbox" checked> Neste slide
+        </label>
+        <br>
+        <label>
+            <input type="checkbox"> Em todos os slides
+        </label>
+    </div>
+
+</body>
+</html>
